@@ -8,7 +8,7 @@ from celery.utils.log import get_task_logger
 
 from celery.result import AsyncResult
 
-from app.celery_worker import celery
+from app.worker import celery
 
 logger = get_task_logger(__name__)
 
